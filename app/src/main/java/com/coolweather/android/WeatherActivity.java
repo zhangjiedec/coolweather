@@ -79,7 +79,7 @@ public class WeatherActivity extends AppCompatActivity {
                 requestWeather(mWeatherId);
             }
         });
-        
+
         if(Build.VERSION.SDK_INT >= 21)
         {
             //拿到当前活动的DecorView
